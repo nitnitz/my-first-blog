@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-h1 a,
-h2 a {
-  color: #c25100;
-  font-family: "Lobster", cursive;
-}
-
-body {
-  padding-left: 15px;
-}
-
 .page-header {
   background-color: #c25100;
   margin-top: 0;
@@ -51,7 +41,7 @@ h4 {
 .top-menu:visited {
   color: #ffffff;
   float: right;
-  font-size: 100px;
+  font-size: 2rem;
   margin-right: 20px;
 }
 
@@ -67,16 +57,4 @@ h4 {
 .post > .date,
 .post > .actions {
   float: right;
-}
-
-.btn-default,
-.btn-default:visited {
-  color: #c25100;
-  background: none;
-  border-color: #c25100;
-}
-
-.btn-default:hover {
-  color: #ffffff;
-  background-color: #c25100;
 }
